@@ -1,0 +1,34 @@
+{
+    "name": "lf-rinfo",
+    "displayName": "lf-rinfo",
+    "description": "soporte para el lenguaje R-Info utilizado en la Facultad de Informatica de la UNLP. Desarrollado por La Fuente - CEFI",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ri",
+                "aliases": [
+                    "rinfo",
+                    "ri"
+                ],
+                "extensions": [
+                    ".ri"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ri",
+                "scopeName": "source.rinfo",
+                "path": "./syntaxes/ri.tmLanguage.json"
+            }
+        ]
+    }
+}
