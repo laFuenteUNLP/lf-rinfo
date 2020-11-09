@@ -1,65 +1,24 @@
-# lf-rinfo README
+# LF-Rinfo
 
-This is the README for your extension "lf-rinfo". After writing up a brief description, we recommend including the following sections.
+> Extensión de Formato de Lenguaje R-Info para vs-cod y , codium (versión libre y recomendada del mismo) - este lenguaje es utilizado para el ingreso en la Facultad de Informática de la UNLP, y dado que el entorno de desarrollo para programar no es muy amigable y no hay posibilidad de extender estas funcionalidades es que se pensó en este plugin. Para detectar código en r-info definimos una extensión .ri ya que el lenguaje por defecto no dispone de extensión propia
 
-## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-For example if there is an image subfolder under your extension project workspace:
+## Requerimientos
 
-\!\[feature X\]\(images/feature-x.png\)
+> tener instalado Codium o VSCode 
+se puede instalar desde el gestor de dependencias del mismo
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Modo desarrollo
 
-## Requirements
+pasos para levantar en modo desarrollo la extensión:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+* clone el repositorio `git clone https://github.com/laFuenteUNLP/lf-rinfo.git`:
+* abrir el proyecto con el editor (codium o vs-code) ej: `codium lf-rinfo/ `
+* si presiona `f5` le abre otro editor con la extensión en modo debug (abra un archivo  .ri para verlo en acción)
 
-## Extension Settings
+## Notas de Versiones
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### 0.0.1
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+> versión inicial con integración de las configuraciones bases del lenguaje e incluso un snippets para la creación del esquema básico de un programa

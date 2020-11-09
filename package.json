@@ -3,11 +3,29 @@
     "displayName": "lf-rinfo",
     "description": "soporte para el lenguaje R-Info utilizado en la Facultad de Informatica de la UNLP. Desarrollado por La Fuente - CEFI",
     "version": "0.0.1",
+    "publisher": "lafuenteunlp",
+    "author": {
+        "name": "La Fuente UNLP",
+        "email": "lafuenteunlp@gmail.com",
+        "url": "https://lafuenteunlp.com.ar"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/laFuenteUNLP/lf-rinfo.git"
+    },
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.50.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
+    ],
+    "keywords": [
+        "snippets",
+        "craft",
+        "r-info",
+        "rinfo"
     ],
     "contributes": {
         "languages": [

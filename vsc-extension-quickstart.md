@@ -29,3 +29,6 @@
 * To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
 
 <!-- 1b137433-ba09-45cd-b236-0d6bbfdbb9b2 -->
+
+
+<!-- vsce publish -p 3qvbwhzk3oyhu6vg4noer2ba4mzkl4uiupe6djqf7fxcneadmpwq -->
