@@ -4,10 +4,10 @@
 
 
 
-## Requerimientos
+## instalacion
 
-> tener instalado Codium o VSCode 
-se puede instalar desde el gestor de dependencias del mismo
+ingrese a la consola con `Ctrl+P`
+`ext install lafuenteunlp.lf-rinfo`
 
 ## Modo desarrollo
 
