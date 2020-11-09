@@ -27,3 +27,5 @@
 
 * To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 * To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+
+<!-- 1b137433-ba09-45cd-b236-0d6bbfdbb9b2 -->
