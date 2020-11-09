@@ -29,6 +29,12 @@
                 "scopeName": "source.rinfo",
                 "path": "./syntaxes/ri.tmLanguage.json"
             }
+        ],
+        "snippets": [
+            {
+                "language": "ri",
+                "path": "./snippets.json"
+            }
         ]
     }
 }
