@@ -21,7 +21,7 @@
 				},
 				{
 					"name": "keyword.other.ri",
-					"match": "\\b(programa|robots|areas|variables|comenzar|fin)\\b"
+					"match": "\\b(programa|robots|robot|areas|variables|comenzar|fin|proceso|procesos)\\b"
 				},
 				{
 					"name": "support.function.other.ri",
@@ -38,7 +38,7 @@
 					"match": "<|>|<=|>=|=|<>|!=",
 					"name": "keyword.operator.comparison.ri"
 				},{
-					"match": "\\b(Pos|Informar|Leer|Iniciar|AsignarArea|AreaC)\\b",
+					"match": "\\b(Pos|Informar|Leer|Iniciar|AsignarArea|AreaC|AreaP)\\b",
 					"name": "support.function.arithmetic.ri"
 				},{
 					"match": ":=",
