@@ -17,15 +17,15 @@
 			"patterns": [
 				{
 					"name": "keyword.control.ri",
-					"match": "\\b(si|mientras|repetir)\\b"
+					"match": "\\b(si|sino|mientras|repetir)\\b"
 				},
 				{
 					"name": "keyword.other.ri",
-					"match": "\\b(programa|robots|areas|variables|comenzar|fin)\\b"
+					"match": "\\b(programa|procesos|proceso|robots|areas|variables|comenzar|fin)\\b"
 				},
 				{
 					"name": "support.function.other.ri",
-					"match": "\\b(tomarFlor|HayFlorEnLaBolsa|HayFlorEnLaEsquina|depositarFlor|HayPapelEnLaBolsa|HayPapelEnLaEsquina|tomarPapel|depositarPapel)\\b"
+					"match": "\\b(tomarFlor|HayFlorEnLaBolsa|HayFlorEnLaEsquina|depositarFlor|HayPapelEnLaBolsa|HayPapelEnLaEsquina|tomarPapel|depositarPapel|PosCa|PosAv)\\b"
 				}
 			]
 		},
@@ -74,7 +74,7 @@
 			"patterns": [
 				{
 					"name": "constant.language.ri",
-					"match": "\\b(verdadero|falso|boolean|numero)\\b"
+					"match": "\\b(V|F|boolean|numero)\\b"
 				}
 			]
 		},
