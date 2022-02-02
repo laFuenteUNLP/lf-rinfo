@@ -24,8 +24,12 @@
 					"match": "\\b(programa|procesos|proceso|robots|robot|areas|variables|comenzar|fin)\\b"
 				},
 				{
-					"name": "support.function.other.ri",
-					"match": "\\b(tomarFlor|HayFlorEnLaBolsa|HayFlorEnLaEsquina|depositarFlor|HayPapelEnLaBolsa|HayPapelEnLaEsquina|tomarPapel|depositarPapel|PosCa|PosAv)\\b"
+					"name": "variable.other.ri",
+					"match": "\\b(mover|derecha|tomarFlor|depositarFlor|tomarPapel|depositarPapel)\\b"
+				},
+				{
+					"name": "support.function.ri",
+					"match": "\\b(HayFlorEnLaBolsa|HayFlorEnLaEsquina|HayPapelEnLaBolsa|HayPapelEnLaEsquina|PosCa|PosAv)\\b"
 				}
 			]
 		},
@@ -45,7 +49,7 @@
 					"name":"keyword.operator.assign.ri"
 				},{
 					"match": "(&|~)",
-					"name": "support.function.logical.ri"
+					"name": "keyword.operator.logical.ri"
 				}
 			]
 		},
