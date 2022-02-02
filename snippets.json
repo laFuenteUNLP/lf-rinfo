@@ -1,9 +1,23 @@
 {
-	"Estrucura Base": {
-		"prefix": "programa",
-		"body": [
-            "programa nombrePrograma\nareas\n\tciudad: AreaC (1,1,100,100)\nrobots\n\trobot robot1\ncomenzar\n\t$1\nfin\nvariables\n\tRinfo: robot1\ncomenzar\n\tAsignarArea (Rinfo,ciudad)\nIniciar (Rinfo,1,1)\nfin", "$2"
-		],
-		"description": "estructura basica de un programa"
-	}
+  "Estrucura Base": {
+    "prefix": "programa",
+    "body": [
+      "programa ${1:nombrePrograma}",
+      "areas",
+      "  ciudad: AreaC(1,1,100,100)",
+      "robots",
+      "  robot robot1",
+      "  comenzar",
+      "    $2",
+      "  fin",
+      "variables",
+      "  Rinfo: robot1",
+      "comenzar",
+      "  AsignarArea(Rinfo,ciudad)",
+      "  Iniciar(Rinfo,1,1)",
+      "fin",
+      ""
+    ],
+    "description": "estructura basica de un programa"
+  }
 }
